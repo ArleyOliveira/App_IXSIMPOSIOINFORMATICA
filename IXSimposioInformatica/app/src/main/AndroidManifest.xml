@@ -34,6 +34,16 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="br.edu.ifnmg.ixsimposioinformatica.MainActivity" />
         </activity>
+        <activity
+            android:name=".PalestranteActivity"
+            android:label="@string/title_activity_palestrante"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ProgramacaoActivity"
+            android:label="@string/title_activity_programacao"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>

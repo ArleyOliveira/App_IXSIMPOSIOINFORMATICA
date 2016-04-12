@@ -9,12 +9,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-public class InformacoesActivity extends AppCompatActivity {
+public class PalestranteActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_informacoes);
+        setContentView(R.layout.activity_palestrante);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -41,4 +41,5 @@ public class InformacoesActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
 }

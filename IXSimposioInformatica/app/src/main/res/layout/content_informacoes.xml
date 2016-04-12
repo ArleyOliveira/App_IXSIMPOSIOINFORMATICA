@@ -9,6 +9,6 @@
     tools:context="br.edu.ifnmg.ixsimposioinformatica.InformacoesActivity">
 
     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:layout_margin="@dimen/text_margin" android:text="@string/large_text" />
+        android:layout_margin="@dimen/text_margin" android:text="LOCAL DO EVENTO  O IX Simpósio de Informática será realizado no IFNMG – Câmpus Januária localizado à Fazenda São Geraldo, s/nº, km 06, Bairro Bom Jardim. Telefones para contato: (38) 3629-4600  SERVIÇOS DE HOSPEDAGEM, ALIMENTAÇÃO E TRANSPORTE EM JANUÁRIA  SERVIÇOS DE HOSPEDAGEM  Hotel e Restaurante Viva Maria Av. São Francisco, 448 Centro, Januária-MG (38) 3621-1414 Preço de referência: apto individual (c/ ar-condicionado): R$ 150,00  Sesc Pousada Januária Av. Aeroporto, 250 Aeroporto, Januária-MG (38) 3621-1076 / 1089 / 1347 Preço de referência: apto individual (c/ ar-condicionado): R$ 74,00 Preço de referência: apto individual (c/ ventilador): R$ 62,00  Hotel Rondônia Praça Getúlio Vargas, 49 Centro, Januária-MG (38) 3621-1592 Preço de referência: apto individual (c/ ar-condicionado): R$ 80,00 Preço de referência: apto individual (c/ ventilador): R$ 55,00" />
 
 </android.support.v4.widget.NestedScrollView>

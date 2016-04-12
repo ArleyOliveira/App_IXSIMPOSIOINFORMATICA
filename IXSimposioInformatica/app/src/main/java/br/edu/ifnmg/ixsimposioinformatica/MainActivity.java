@@ -36,11 +36,27 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        ImageView imageView = (ImageView) findViewById(R.id.imgInformacao);
-        imageView.setOnClickListener(new View.OnClickListener() {
+        ImageView imageView1 = (ImageView) findViewById(R.id.imgInformacao);
+        imageView1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getBaseContext(),InformacoesActivity.class));
+                startActivity(new Intent(getBaseContext(), InformacoesActivity.class));
+            }
+        });
+
+        ImageView imageView2 = (ImageView) findViewById(R.id.imgPalestrante);
+        imageView2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getBaseContext(), PalestranteActivity.class));
+            }
+        });
+
+        ImageView imageView3 = (ImageView) findViewById(R.id.imgProgramacao);
+        imageView3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getBaseContext(), ProgramacaoActivity.class));
             }
         });
     }

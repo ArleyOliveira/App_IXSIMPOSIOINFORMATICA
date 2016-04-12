@@ -96,4 +96,6 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="title_activity_informacoes">Informações</string>
+    <string name="title_activity_palestrante">Palestrante</string>
+    <string name="title_activity_programacao">Programação</string>
 </resources>
